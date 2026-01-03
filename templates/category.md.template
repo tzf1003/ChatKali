@@ -1,0 +1,26 @@
+---
+category_name: {{CATEGORY_NAME}}
+category_slug: {{CATEGORY_SLUG}}
+aliases: {{CATEGORY_ALIASES_YAML}}
+tools_count: {{TOOLS_COUNT}}
+generated_at: {{GENERATED_AT}}
+source_commit: {{SOURCE_COMMIT}}
+---
+
+# Category: {{CATEGORY_NAME}}
+
+## Overview
+{{CATEGORY_DESCRIPTION}}
+
+## Tool List
+
+| Tool | CLI | Description | Binaries | Source | Link |
+| --- | --- | --- | --- | --- | --- |
+{{TOOL_TABLE_ROWS}}
+
+## Notes
+- Tools may appear in multiple categories.
+- “Source” points to the original documentation path in the upstream repository.
+
+## Back
+[Return to Main Index](../SKILL.md)

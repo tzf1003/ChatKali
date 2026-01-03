@@ -1,0 +1,48 @@
+---
+tool_id: {{TOOL_ID}}
+title: {{TOOL_TITLE}}
+categories: {{TOOL_CATEGORIES_YAML}}
+category_slugs: {{TOOL_CATEGORY_SLUGS_YAML}}
+homepage: {{TOOL_HOMEPAGE}}
+repository: {{TOOL_REPOSITORY}}
+version: {{TOOL_VERSION}}
+architectures: {{TOOL_ARCHITECTURES}}
+license: {{TOOL_LICENSE}}
+binaries: {{TOOL_BINARIES_YAML}}
+metapackages: {{TOOL_METAPACKAGES_YAML}}
+icon: {{TOOL_ICON}}
+source_path: {{SOURCE_PATH}}
+source_commit: {{SOURCE_COMMIT}}
+generated_at: {{GENERATED_AT}}
+---
+
+# Tool: {{TOOL_TITLE}} ({{TOOL_ID}})
+
+## Categories
+{{CATEGORY_LINKS}}
+
+## Quick Facts
+| Field | Value |
+| --- | --- |
+| Homepage | {{TOOL_HOMEPAGE_LINK}} |
+| Repository | {{TOOL_REPOSITORY_LINK}} |
+| Version | {{TOOL_VERSION}} |
+| Architectures | {{TOOL_ARCHITECTURES}} |
+| License | {{TOOL_LICENSE}} |
+| Binaries | {{TOOL_BINARIES_INLINE}} |
+| Metapackages | {{TOOL_METAPACKAGES_INLINE}} |
+| Icon | {{TOOL_ICON_INLINE}} |
+
+## Install
+{{TOOL_INSTALL_SECTION}}
+
+## Official Info (Extracted)
+{{METADATA_SECTION}}
+
+## Documentation (Upstream)
+{{CONTENT_BODY}}
+
+## Source
+- Path: {{SOURCE_PATH}}
+- Commit: {{SOURCE_COMMIT}}
+- Generated at: {{GENERATED_AT}}
