@@ -19,6 +19,22 @@ It uses an LLM (Large Language Model) to intelligently classify tools, determine
 
 ## Setup
 
+### 1. Quick Install (Agent Integration)
+
+To automatically install ChatKali skills for **OpenAI Codex** and **Claude Code**, run this one-line command:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/tzf1003/ChatKali/main/scripts/install.sh | bash
+```
+
+This script clones the repository into the standard skill directories:
+- **OpenAI Codex**: `~/.codex/skills/chatkali`
+- **Claude Code**: `~/.claude/skills/chatkali`
+
+Please **restart** your Agent client after installation.
+
+### 2. Manual Setup / Development
+
 1.  **Clone the repository** (if you haven't already).
 2.  **Install dependencies** (standard Python libraries used: `requests`, `concurrent.futures`).
 3.  **Configure Environment**:
@@ -30,6 +46,15 @@ It uses an LLM (Large Language Model) to intelligently classify tools, determine
     ```
 
 ## Usage
+
+### Using with Agents
+
+Once installed, you can access the skills directly in your chat:
+
+- **Codex**: Type `/skills` to verify, or use `$chatkali` (depending on loader) to invoke.
+- **Claude Code**: Ask *"List all available Skills"* or *"Help me use nmap with ChatKali"*.
+
+### Building the Knowledge Base
 
 Run the build script from the workspace root:
 

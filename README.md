@@ -21,6 +21,22 @@
 
 ## 安装与配置
 
+### 1. 快速安装 (Agent 集成)
+
+如果你希望在 **OpenAI Codex** 或 **Claude Code** 中直接使用 ChatKali 技能，可以使用以下命令一键安装：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/tzf1003/ChatKali/main/scripts/install.sh | bash
+```
+
+此脚本会自动将仓库克隆到以下标准技能目录：
+- **OpenAI Codex**: `~/.codex/skills/chatkali`
+- **Claude Code**: `~/.claude/skills/chatkali`
+
+安装完成后，请**重启**你的 Agent 客户端。
+
+### 2. 手动安装 / 开发配置
+
 1.  **克隆仓库** (如果尚未克隆)。
 2.  **配置环境变量**：
     在根目录下创建一个 `.env` 文件，并填入你的 API 配置信息：
@@ -31,6 +47,15 @@
     ```
 
 ## 使用方法
+
+### 在 Agent 中使用
+
+安装完成后，你可以直接在对话中调用相关技能：
+
+- **Codex**: 输入 `/skills` 查看列表，或使用 `$chatkali` (取决于具体加载名) 调用。
+- **Claude Code**: 直接询问 *"List all available Skills"* 或 *"Help me use nmap with ChatKali"*。
+
+### 手动构建技能库
 
 在工作区根目录下运行构建脚本：
 
