@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 kali-tools/
 llm_cache.json
+.github/
