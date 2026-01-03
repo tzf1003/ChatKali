@@ -25,10 +25,11 @@ Beyond executing commands, ChatKali parses tool outputs to identify critical inf
 ### 3. Automated Exploitation
 Upon finding vulnerabilities, ChatKali guides you through exploitation using tools like Metasploit, and can even generate automation scripts.
 ![Automated Exploitation](assets/demo-03-exploitation.png)
+![Exploitation Success](assets/demo-04-success.png)
 
-### 4. Metasploit Session Management
-With deep MSF integration, ChatKali helps you create, manage, and interact with Metasploit Sessions, streamlining complex pentesting workflows.
-![MSF Session Management](assets/demo-04-msf-session.png)
+### 4. Deep Exploitation Management
+ChatKali can streamline complex penetration testing workflows.
+![MSF Session Management](assets/demo-05-msf-session.png)
 
 ## Prerequisites
 
