@@ -6,6 +6,7 @@
 REPO_URL="https://github.com/tzf1003/ChatKali.git"
 INSTALL_DIR_CODEX="$HOME/.codex/skills/chatkali"
 INSTALL_DIR_CLAUDE="$HOME/.claude/skills/chatkali"
+INSTALL_DIR_VSCODE="./.github/skills/chatkali"
 
 # Colors
 GREEN='\033[0;32m'
@@ -42,9 +43,13 @@ install_repo "$INSTALL_DIR_CODEX" "OpenAI Codex"
 
 # 2. Claude Code
 install_repo "$INSTALL_DIR_CLAUDE" "Claude Code"
+# 3. VS Code (Project Level)
+install_repo "$INSTALL_DIR_VSCODE" "VS Code"
 
 echo ""
 echo -e "${GREEN}✅ Installation Complete!${NC}"
-echo "Please restart your agent (Codex/Claude) to load the new skills."
+echo "Please restart your agent (Codex/Claude/VS Code) to load the new skills."
 echo "  - Codex: Type '/skills' to verify."
+echo "  - Claude: Ask 'List all available Skills' to verify."
+echo "  - VS Code: Check .github/skills/chatkali in your current project
 echo "  - Claude: Ask 'List all available Skills' to verify."
