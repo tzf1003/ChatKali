@@ -32,8 +32,9 @@ curl -fsSL https://raw.githubusercontent.com/tzf1003/ChatKali/main/scripts/insta
 此脚本会自动将仓库克隆到以下标准技能目录：
 - **OpenAI Codex**: `~/.codex/skills/chatkali`
 - **Claude Code**: `~/.claude/skills/chatkali`
+- **VS Code (Copilot)**: `./.github/skills/chatkali` (当前项目目录)
 
-安装完成后，请**重启**你的 Agent 客户端。
+安装完成后，请**重启**你的 Agent 客户端。对于 VS Code，技能将直接在当前项目中可用。
 
 ### 2. 手动安装 / 开发配置
 

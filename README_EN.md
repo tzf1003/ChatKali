@@ -30,8 +30,9 @@ curl -fsSL https://raw.githubusercontent.com/tzf1003/ChatKali/main/scripts/insta
 This script clones the repository into the standard skill directories:
 - **OpenAI Codex**: `~/.codex/skills/chatkali`
 - **Claude Code**: `~/.claude/skills/chatkali`
+- **VS Code (Copilot)**: `./.github/skills/chatkali` (Current project directory)
 
-Please **restart** your Agent client after installation.
+Please **restart** your Agent client after installation. For VS Code, the skills will be available immediately in your current project.
 
 ### 2. Manual Setup / Development
 
