@@ -12,6 +12,24 @@ It uses an LLM (Large Language Model) to intelligently classify tools, determine
 - **High Performance**: Uses multi-threading to process hundreds of tools efficiently.
 - **Structured Output**: Generates a clean `SKILL.md` entry point and organized Markdown files in `references/`.
 
+## Screenshots
+
+### 1. Smart Tool Recommendation & Discovery
+ChatKali automatically recommends suitable tools based on your intent (e.g., "network discovery") and provides specific commands.
+![Smart Tool Recommendation](assets/demo-01-discovery.png)
+
+### 2. Deep Analysis of Scan Results
+Beyond executing commands, ChatKali parses tool outputs to identify critical information (e.g., identifying a Metasploitable target).
+![Scan Result Analysis](assets/demo-02-scan-results.png)
+
+### 3. Automated Exploitation
+Upon finding vulnerabilities, ChatKali guides you through exploitation using tools like Metasploit, and can even generate automation scripts.
+![Automated Exploitation](assets/demo-03-exploitation.png)
+
+### 4. Metasploit Session Management
+With deep MSF integration, ChatKali helps you create, manage, and interact with Metasploit Sessions, streamlining complex pentesting workflows.
+![MSF Session Management](assets/demo-04-msf-session.png)
+
 ## Prerequisites
 
 - Python 3.8+

@@ -14,6 +14,24 @@
 - **高性能**：使用多线程技术高效处理数百个工具文档。
 - **结构化输出**：生成清晰的 `SKILL.md` 入口文件以及 `references/` 目录下组织良好的 Markdown 文件。
 
+## 演示截图
+
+### 1. 智能工具推荐与内网发现
+ChatKali 能够根据你的需求（如“内网设备发现”）自动推荐合适的工具，并给出具体的使用命令。
+![智能工具推荐](assets/demo-01-discovery.png)
+
+### 2. 扫描结果深度分析
+不仅仅是执行命令，ChatKali 还能读取工具输出，分析扫描结果，并识别关键信息（如 Metasploitable 靶机）。
+![扫描结果分析](assets/demo-02-scan-results.png)
+
+### 3. 自动化漏洞利用
+在发现漏洞后，ChatKali 可以指导你使用 Metasploit 等工具进行漏洞利用，甚至生成自动化脚本。
+![自动化漏洞利用](assets/demo-03-exploitation.png)
+
+### 4. Metasploit 会话管理
+ChatKali 深度集成了 MSF，可以协助你创建、管理和交互 Metasploit Session，简化复杂的渗透测试流程。
+![MSF会话管理](assets/demo-04-msf-session.png)
+
 ## 前置要求
 
 - Python 3.8+
